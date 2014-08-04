@@ -8,7 +8,7 @@ pollutantmeans <- function(directory = getwd(), pollutant, id = 1:332) {
   mean(data[, pollutant], na.rm=TRUE)
 }
 
-## or mine
+## or
 
 pollutantmean <- function(directory, pollutant, id = 1:332) {
   data = numeric()
